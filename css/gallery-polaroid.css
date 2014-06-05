@@ -12,7 +12,7 @@ ul.foogallery-polaroid a {
 	background: #fff;
 	display: inline;
 	float: left;
-	margin: 0 0 27px 30px;
+	margin: 0 30px 20px 0;
 	width: auto;
 	padding: 10px 10px 15px;
 	text-align: center;
@@ -29,12 +29,6 @@ ul.foogallery-polaroid a {
 
 ul.foogallery-polaroid li {
 	padding-left: 0;
-}
-
-@media screen and (max-width: 768px) {
-	ul.foogallery-polaroid li a {
-		margin-left:0;
-	}
 }
 
 ul.foogallery-polaroid img {
@@ -76,12 +70,6 @@ ul.foogallery-polaroid li:nth-child(11n) a {
 	position: relative;
 	left: -5px;
 	top: 3px;
-}
-
-ul.foogallery-polaroid li.messy a {
-	margin-top: -400px;
-	position: relative;
-	left: 160px;
 }
 
 ul.foogallery-polaroid li a:hover {
