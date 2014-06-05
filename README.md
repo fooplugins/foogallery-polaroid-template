@@ -1,4 +1,6 @@
-foogallery-polaroid-template
+FooGallery Polaroid Template
 ============================
 
-A gallery template to FooGallery, which uses a popular polaroid layout and effect
+A gallery template built for [FooGallery][1], which uses a popular polaroid layout and effect.
+
+  [1]: https://github.com/fooplugins/foogallery
