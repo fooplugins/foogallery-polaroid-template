@@ -13,7 +13,7 @@
  * @wordpress-plugin
  * Plugin Name: FooGallery - Polaroid Gallery Template Extension
  * Description: Adds an Polaroid Gallery Template
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      bradvin
  * Author URI:  http://fooplugins.com
  * License:     GPL-2.0+
@@ -38,10 +38,6 @@ if ( !class_exists( 'FooGallery_Polaroid_Template_Extension' ) ) {
 			$gallery_templates[] = array(
 				'slug'        => 'polaroid',
 				'name'        => __( 'Polaroid Image Gallery', 'foogallery'),
-				'author'      => 'FooPlugins',
-				'author_url'  => 'http://fooplugins.com',
-				'demo_url'    => 'http://fooplugins.com/plugins/foogallery',
-				'thumbnail'   => FOOGALLERY_URL . 'templates/default/thumb.png',
 				'fields'	  => array(
 					array(
 						'id'      => 'thumbnail_size',

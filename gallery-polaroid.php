@@ -9,7 +9,7 @@ $link = foogallery_gallery_template_setting( 'thumbnail_link', 'image' );
 $lightbox = foogallery_gallery_template_setting( 'lightbox', 'unknown' );
 ?>
 <ul class="foogallery-container foogallery-polaroid foogallery-lightbox-<?php echo esc_attr($lightbox); ?>">
-	<?php foreach ( $current_foogallery->attachments() as $attachment_id ) {
-		echo '<li>' . foogallery_get_attachment_html( $attachment_id, $size, $link ) . '</li>';
+	<?php foreach ( $current_foogallery->attachments() as $attachment ) {
+		echo '<li>' . $attachment->html( $size, $link ) . '</li>';
 	} ?>
 </ul>
