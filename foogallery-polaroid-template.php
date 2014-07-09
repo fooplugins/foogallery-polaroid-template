@@ -41,17 +41,23 @@ if ( !class_exists( 'FooGallery_Polaroid_Template_Extension' ) ) {
 				'fields'	  => array(
 					array(
 						'id'      => 'thumbnail_size',
-						'title'   => __('Thumb Size', 'foogallery'),
-						'desc'    => __('Choose the size of your thumbs.', 'foogallery'),
+						'title'   => __('Thumbnail Size', 'foogallery'),
+						'desc'    => __('Choose the size of your thumbnails.', 'foogallery'),
 						'type'    => 'thumb_size',
+						'default' => array(
+							'width' => get_option( 'thumbnail_size_w' ),
+							'height' => get_option( 'thumbnail_size_h' ),
+							'crop' => true
+						)
 					),
+
 					array(
 						'id'      => 'thumbnail_link',
 						'title'   => __('Thumbnail Link', 'foogallery'),
 						'default' => 'image' ,
 						'type'    => 'thumb_link',
 						'spacer'  => '<span class="spacer"></span>',
-						'desc'	  => __('You can choose to either link each thumbnail to the full size image or to the image\'s attachment page.', 'foogallery')
+						'desc'	  => __('You can choose to link each thumbnail to the full size image, or to the image\'s attachment page, or you can choose to not link to anything.', 'foogallery')
 					),
 					array(
 						'id'      => 'lightbox',
