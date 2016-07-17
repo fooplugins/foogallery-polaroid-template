@@ -1,6 +1,7 @@
-@media screen and (max-width: 767px) {
-	.foogallery-polaroid li:nth-child(n+5) {
-		display:none;
+@media screen and (max-width: 480px) {
+	ul.foogallery-polaroid li a {
+		width: 40%;
+		margin: 10px;
 	}
 }
 
