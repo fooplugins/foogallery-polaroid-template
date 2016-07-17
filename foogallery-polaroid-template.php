@@ -7,7 +7,7 @@
  * @package   FooGalleryPolaroidGalleryTemplate
  * @author    Brad Vincent <brad@fooplugins.com>
  * @license   GPL-2.0+
- * @link      https://github.com/fooplugins/foogallery-media-menu-extension
+ * @link      https://github.com/fooplugins/foogallery-polaroid-template
  * @copyright 2014 FooPlugins LLC
  *
  * @wordpress-plugin
